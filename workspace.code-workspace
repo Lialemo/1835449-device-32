@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\HTML\\Work"
+		},
+		{
+			"path": "..\\..\\..\\Курс по вёрстке\\Project"
+		},
+		{
+			"path": "..\\..\\..\\Курс по вёрстке\\New"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project"
+	}
+}

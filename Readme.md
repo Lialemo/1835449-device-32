@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Алеся Корень](https://up.htmlacademy.ru/htmlcss/32/user/1835449).
-* Наставник: `Неизвестно`.
+- Студент: [Алеся Корень](https://up.htmlacademy.ru/htmlcss/32/user/1835449).
+- Наставник: [Евгений Котов](https://htmlacademy.ru/profile/eugene_kotov)
 
 ---
 
