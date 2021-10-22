@@ -20,22 +20,22 @@
       <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
+          <div class="navigation-link-search">
             <span class="visually-hidden">Поиск</span>
-          </a>
+          </div>
         </li>
         <li>
-          <a class="navigation-link" href="#">Поиск по сайту</a>
+          <a class="navigation-link-site-search" href="#">Поиск по сайту</a>
         </li>
       </ul>
 
        <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
+          <div class="navigation-link-user">
             <span class="visually-hidden">
               Пользователь
             </span>
-          </a>
+          </div>
         </li>
         <li>
           <a class="navigation-link" href="#">Войти</a>
@@ -44,21 +44,24 @@
 
        <ul class="navigation-list navigation-cart">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
+          <div class="navigation-link-d">
             <span class="visually-hidden">
               Столбчатая диаграмма
             </span>
-          </a>
+          </div>
         </li>
         <li>
           <a class="navigation-link" href="#">Сравнить</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="cart.html">
+
+          <div class="navigation-link-cart">
+            <div class="counter">2</div>
+
             <span class="visually-hidden">
               Корзина
             </span>
-          </a>
+          </div>
         </li>
         <li>
           <a class="navigation-link" href="#">Корзина</a>
@@ -71,7 +74,7 @@
           <ul class="dropdown-menu">
             <li class="dropdown-menu-column">
               <a href="#">Виртуальная реальность</a>
-              <a href="catalog.html">Моноподы для серфи</a>
+              <a href="catalog.html">Моноподы для селфи</a>
               <a href="#">Экшн-камеры</a>
             </li>
             <li class="dropdown-menu-column">
@@ -120,7 +123,7 @@
        жалит как пчела!</h1>
     <p>Этот обычный,на первый взгляд, квадрокоптер оснащен <br> 
     мощным лазером, замаскированным под стандартную камеру.</p>
-    <a class="" href="#">ПОДРОБНЕЕ</a>
+    <a class="detail" href="#">ПОДРОБНЕЕ</a>
 
             <ol class="slider-pagination">
           <li class="slider-pagination-item">
@@ -160,23 +163,23 @@
       <ul class="main-goods-list">
         <li class="main-goods-item">
           <a class="main-goods-item-link" href="#">
-            <div class="main-goods-item">
+            <div class="main-goods-item-catalog">
               <img src="img/popular-1.svg" width="97" height="55" alt="Очки VR">
             </div>
-            <p class="main-goods-item-name">Виртуальная реальность</p>
+            <p class="main-goods-item-name">Виртуальная <br> реальность</p>
           </a>
         </li>
         <li class="main-goods-item">
           <a class="main-goods-item-link" href="#">
-            <div class="main-goods-item">
+            <div class="main-goods-item-catalog">
               <img src="img/popular-2.svg" width="97" height="55" alt="Монопод">
             </div>
-            <p class="main-goods-item-name">Моноподы для селфи</p>
+            <p class="main-goods-item-name">Моноподы <br>для селфи</p>
           </a>
         </li>
         <li class="main-goods-item">
           <a class="main-goods-item-link" href="#">
-            <div class="main-goods-item">
+            <div class="main-goods-item-catalog">
               <img src="img/popular-3.svg" width="97" height="55" alt="Экшн-камера">
             </div>
             <p class="main-goods-item-name">Экшн-камеры</p>
@@ -184,7 +187,7 @@
         </li>
         <li class="main-goods-item">
           <a class="main-goods-item-link" href="#">
-            <div class="main-goods-item">
+            <div class="main-goods-item-catalog">
               <img src="img/popular-4.svg" width="97" height="55" alt="Фитнес-браслет">
             </div>
             <p class="main-goods-item-name">Фитнес-браслеты</p>
@@ -192,7 +195,7 @@
         </li>
         <li class="main-goods-item">
           <a class="main-goods-item-link" href="#">
-            <div class="main-goods-item">
+            <div class="main-goods-item-catalog">
               <img src="img/popular-5.svg" width="97" height="55" alt="Умные часы">
             </div>
             <p class="main-goods-item-name">Умные часы</p>
@@ -200,7 +203,7 @@
         </li>
         <li class="main-goods-item">
           <a class="main-goods-item-link" href="#">
-            <div class="main-goods-item">
+            <div class="main-goods-item-catalog">
               <img src="img/popular-6.svg" width="97" height="55" alt="Квадрокоптер">
             </div>
             <p class="main-goods-item-name">Квадрокоптеры</p>
@@ -219,21 +222,21 @@
             <p>Мы с удовольствием доставим ваш товар прямо <br> 
               к вашему подъезду совершенно бесплатно! Ведь <br>
               мы неплохо заработаем, поднимая его на ваш этаж.</p>
-              <img src="img/delivery2.svg" width="136" height="164" alt="Курьер">
+              <img  class="services-img" src="img/delivery2.svg" width="136" height="164" alt="Курьер">
           </div>
           <div class="services-slider-item">
             <h3>Гарантия</h3>
             <p>Если из-за возгорания купленного у нас товара у вас<br>
               сгорит дом — не переживайте, мы выдадим вам новый.<br>
               Товар, не дом, конечно же.</p>
-              <img src="img/warranty1.svg"  width="136" height="164" alt="Гарантия">
+              <img class="services-img" src="img/warranty1.svg"  width="136" height="164" alt="Гарантия">
           </div>
           <div class="services-slider-item">
             <h3>Кредит</h3>
             <p>Залезть в долговую яму стало проще! Кредитные<br>
               консультанты подберут для вас наиболее выгодные<br>
               условия кредита. Выгодные для банка, разумеется.</p>
-              <img src="img/credit1.svg"  width="136" height="164" alt="Кредит">
+              <img class="services-img" src="img/credit1.svg"  width="136" height="164" alt="Кредит">
           </div>
         </div>
       </div>
@@ -253,13 +256,14 @@
 
     <section class="company">
       <div class="company-delivery">
-        <img src="img/delivery3.svg"  width="47" height="31" alt="Доставка">
+        <img class="delivery" src="img/delivery3.svg"  width="47" height="31" alt="Доставка">
         <p>ДОСТАВИМ РЕДКИЙ ТОВАР ПОД ЗАКАЗ</p>
-        <img class="" src="img/info.svg" alt="Инфо">
+        <img class="info" src="img/info.svg" alt="Инфо">
       </div>
     </section>
 
     <section class="main-info">
+      <article class="main-info-des">
       <h3>О нас</h3>
       <div class="main-info-descr">
         <p>Огромный выбор гаджетов не оставит равнодушным<br>
@@ -272,26 +276,27 @@
               <li class="main-info-delivery-item">СДИК</li>
               <li class="main-info-delivery-item">ТоксБерри</li>
             </ul>
-            <a class="" href="#">ПОДРОБНЕЕ</a>
+            <a class="btn" href="#">ПОДРОБНЕЕ о нас</a>
+          </article>
     </section>
     
     <section class="main-contacts">
     <h3>Контакты</h3>
     <p>Вы можете забрать товар сами, заехав в наш офис.<br> 
       Заодно, сможете проверить работоспособность покупки. </p>
-      <h4>Интернет-магазн "Девайс"</h4>
+      <h4>Интернет-магазн «Девайс»</h4>
       <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-      <a class="contacts-phone" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
-      <h3 class="contacts-subtitle">Время работы</h3>
+      <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <h4 class="contacts-subtitle">Время работы</h4>
       <ul class="contacts-schedule">
           <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
           <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
         </ul>
-        <a class="" href="#">НАПИШИТЕ НАМ</a>
+        <a class="main-contacts-btn" href="#">НАПИШИТЕ НАМ</a>
         </section>
 
         <section class="main-mailing">
-          <h2>Подпишитесь на рассылку</h2>
+          <h2>Подпишитесь <br> на рассылку</h2>
           <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="button newsletter-button" type="submit">
             <span>ПОДПИСАТЬСЯ</span>
@@ -299,8 +304,7 @@
           <p>Еженедельный дайджест с обзорами новинок,<br>
             длительными тест-драйвами, распаковками, а также акции,<br>
             спецпредложения и вот это вот всё.</p>
-            <label>
-              <input type="checkbox" checked>Это бесплатно</label>   
+             <p> <img class="tick" src="/img/tick.svg" width="14" height="14" alt="Галочка"> Это бесплатно</p>
         </section>
 
          <footer class="page-footer">
@@ -309,30 +313,36 @@
         </div>
          <div class="page-footer-info">
           <div class="page-footer-address">
-            <span>Санкт-Петербург, набережная реки Карповки, 5, литера П.</span>
+            <span>Санкт-Петербург, набережная <br> реки Карповки, 5, литера П.</span>
+          </div>
+          <div class="page-footer-services">
+            <a class="page-footer-services-link" href="#">ДОСТАВКА</a>
+            <a class="page-footer-services-link" href="#">ГАРАНТИЯ</a>
+            <a class="page-footer-services-link" href="#">КОНТАКТЫ</a>
+          </div>
+          <div>
+            <a class="contacts-phone" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
           </div>
          </div>
-          <div class="page-footer-services">
-            <a class="" href="#">ДОСТАВКА</a>
-            <a class="" href="#">ГАРАНТИЯ</a>
-            <a class="" href="#">КОНТАКТЫ</a>
-          </div>
-          <a class="contacts-phone" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+          
+          
 
-          <div class="page-footer-link">
+          <div class="page-footer-links">
+            <div class="page-footer-links-wrap">
             <ul class="page-footer-social-list">
               <li class="page-footer-social-item">
-                <a href="https://www.facebook.com/htmlacademy"> <img src="img/facebook.svg"  width="40" height="40" alt="Facebook"></a>
+                <a class="page-footer-social-link page-footer-social-link-fb" href="https://www.facebook.com/htmlacademy"> <img src="img/facebook.svg"  width="40" height="40" alt="Facebook"></a>
               </li>
               <li class="page-footer-social-item">
-                <a href="https://www.instagram.com/htmlacademy/"> <img src="img/instagram.svg" width="40" height="40" alt="Instagram"></a>
+                <a class="page-footer-social-link page-footer-social-link-ins" href="https://www.instagram.com/htmlacademy/"> <img src="img/instagram.svg" width="40" height="40" alt="Instagram"></a>
               </li>
               <li class="page-footer-social-item">
-                <a href="https://twitter.com/htmlacademy_ru"> <img src="img/twitter.svg" width="40" height="40" alt="Twitter"></a>
+                <a class="page-footer-social-link page-footer-social-link-tw" href="https://twitter.com/htmlacademy_ru"> <img src="img/twitter.svg" width="40" height="40" alt="Twitter"></a>
               </li>
             </ul>
              <div class="page-footer-copyright">
               <a href="https://htmlacademy.ru/"><img src="img/htmlacademy.svg" width="115" height="34" alt="HTML Academy"></a>
+            </div>
             </div>
           </div>
         </footer>
