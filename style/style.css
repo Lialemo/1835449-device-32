@@ -43,7 +43,7 @@ html {
 body {
   margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*Задаёт направление основных осей*/
   min-height: 100%;
   color: #444444;
   background: #FFFFFF;
@@ -79,6 +79,7 @@ body {
   margin:0 auto;
 }
 
+/*Скрытые*/
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -169,8 +170,8 @@ overflow: hidden;
 
 .main-nav-user {
   display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
+  flex-wrap: wrap; 
+  list-style-type: none; /*Отключает булеты*/
   margin: 0;
   padding: 0;
   width: 570px;
@@ -241,7 +242,7 @@ overflow: hidden;
 
 .main-nav-list {
   display: flex;
-  list-style-type: none;
+  list-style-type: none; /*Отключает булеты*/
   position: relative;
   margin: 0;
   padding: 0;
@@ -255,7 +256,7 @@ overflow: hidden;
 .main-nav-list {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
+  list-style-type: none; /*Отключает булеты*/
   margin: 0;
   padding: 0;
   width: 535px;
@@ -346,7 +347,7 @@ overflow: hidden;
 
 .page-footer-services-list {
   display: flex;
-  list-style-type: none;
+  list-style-type: none; /*Отключает булеты*/
   padding: 0;
   margin: 0;
   flex-grow: 1;
@@ -356,7 +357,7 @@ overflow: hidden;
 
 .page-footer-social-list {
   display: flex;  
-  list-style-type: none; 
+  list-style-type: none;  /*Отключает булеты*/
   padding: 0;
   margin: 0;
   margin-top: 10px;
@@ -472,7 +473,7 @@ overflow: hidden;
 
 .slider-advantages-bigt-list {
   display: grid;
-  list-style-type: none; 
+  list-style-type: none;  /*Отключает булеты*/
   grid-template-columns: 160px 160px 160px; 
   padding: 0;
   margin: 0; 
@@ -547,7 +548,7 @@ overflow: hidden;
 }
 
 .main-goods-list {
-  list-style-type: none;
+  list-style-type: none; /*Отключает булеты*/
   margin: 0;
   padding: 0;
 }
@@ -957,7 +958,7 @@ overflow: hidden;
   background-image: url("../img/sort-up.svg");
   background-repeat: no-repeat;
   display: block;
-  align-items: center;
+  align-items: center; /*Выравнивает флекс-элементы внутри*/
   justify-content: center;
   margin-right: 19px;
   margin-top: 5px;
@@ -1104,7 +1105,6 @@ overflow: hidden;
 
 .wrap-catalog {
   height: 100%;
-  /* background: linear-gradient(to right,#DCDCDC 50%,#EBEBEB 50%), linear-gradient(to right,  #E5E5E5 50%, #FFFFFF 50%) ; */
   background-size: 100% 70px, 100% 100%;
   background-repeat: no-repeat;
 }
