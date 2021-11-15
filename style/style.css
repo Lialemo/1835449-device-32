@@ -1090,7 +1090,6 @@ img {
   margin-bottom: 69px;
 }
 
-/*delivery*/
 .company-delivery {
   position: relative;
   padding: 0;
@@ -1552,7 +1551,6 @@ img {
   background-repeat: no-repeat;
 }
 
-/* catalog*/
 .inner-header {
   padding-top: 37px;
   margin-bottom: 44px;
@@ -1830,6 +1828,7 @@ img {
   height: 16px;
   border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .catalog-filter-group-bt {
@@ -2557,6 +2556,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 11px 11px;
+  cursor: pointer;
 }
 
 .cart-item-button:hover {
@@ -2844,6 +2844,7 @@ img {
   height: 54px;
   border: none;
   background: #f0f0f0;
+  cursor: pointer;
 }
 
 .counter-minus {
